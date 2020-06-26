@@ -1,6 +1,5 @@
 language: python
 arch: 
-  - arm64
   - amd64
 python:
   - 3.4
@@ -10,8 +9,8 @@ python:
 sudo: required
 
 install:
-  - sudo pip install cryptography scapy
-  - sudo apt-get install tcpdump python3-crypto ipython3
+  - pip install cryptography scapy
+  #- sudo apt-get install tcpdump python3-crypto ipython3
 
 script:
   - cd test
