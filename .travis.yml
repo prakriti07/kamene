@@ -8,7 +8,7 @@ python:
 sudo: required
 
 install:
-  - sudo pip install cryptography
+  - sudo pip install cryptography scapy
 
 script:
   - cd test
