@@ -9,7 +9,7 @@ python:
 sudo: required
 
 install:
-  - pip install cryptography scapy
+  - sudo pip install cryptography scapy
   #- sudo apt-get install tcpdump python3-crypto ipython3
 
 script:
