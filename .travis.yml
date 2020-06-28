@@ -11,10 +11,10 @@ sudo: required
 install:
   #- sudo add-apt-repository "deb http://ports.ubuntu.com/ubuntu-ports/  eoan main universe"
   #- sudo apt-get update
-  - sudo apt-get install python3.6
+  #- sudo apt-get install python3.6
   - sudo pip install cryptography scapy
   #- sudo apt-get install tcpdump python3-crypto ipython3
 
 script:
   - cd test
-  - sudo ./run_tests
+  - ./run_tests
